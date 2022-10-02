@@ -1,5 +1,5 @@
 {
-    "name": "weblinko/php-chronopost",
+    "name": "weblinko/php-mondial-relay",
     "description": "Package generated from https://api.mondialrelay.com/Web_Services.asmx?WSDL using wsdltophp/packagegenerator",
     "require": {
         "php": ">=7.4",
