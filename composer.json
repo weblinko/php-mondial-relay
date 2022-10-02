@@ -1,0 +1,23 @@
+{
+    "name": "weblinko/php-chronopost",
+    "description": "Package generated from https://api.mondialrelay.com/Web_Services.asmx?WSDL using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=7.4",
+        "ext-dom": "*",
+        "ext-mbstring": "*",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MondialRelay\\": "./src/",
+            "SoapClient\\": "./SoapClient/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.4"
+    },
+    "scripts": {
+       "phpstan": "vendor/bin/phpstan analyze src --level=3"
+    }
+}
