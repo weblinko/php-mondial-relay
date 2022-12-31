@@ -150,7 +150,7 @@ class ArrayOfArrayOfString extends AbstractStructArrayBase
      * @see AbstractStructArrayBase::getAttributeName()
      * @return string ArrayOfString
      */
-    public function getAttributeName()
+    public function getAttributeName(): string
     {
         return 'ArrayOfString';
     }

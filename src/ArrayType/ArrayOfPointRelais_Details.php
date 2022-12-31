@@ -150,7 +150,7 @@ class ArrayOfPointRelais_Details extends AbstractStructArrayBase
      * @see AbstractStructArrayBase::getAttributeName()
      * @return string PointRelais_Details
      */
-    public function getAttributeName()
+    public function getAttributeName(): string
     {
         return 'PointRelais_Details';
     }

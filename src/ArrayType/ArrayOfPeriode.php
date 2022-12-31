@@ -150,7 +150,7 @@ class ArrayOfPeriode extends AbstractStructArrayBase
      * @see AbstractStructArrayBase::getAttributeName()
      * @return string Periode
      */
-    public function getAttributeName()
+    public function getAttributeName(): string
     {
         return 'Periode';
     }

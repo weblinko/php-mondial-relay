@@ -150,7 +150,7 @@ class ArrayOfRet_WSI2_sub_PointRelaisHoraires extends AbstractStructArrayBase
      * @see AbstractStructArrayBase::getAttributeName()
      * @return string ret_WSI2_sub_PointRelaisHoraires
      */
-    public function getAttributeName()
+    public function getAttributeName(): string
     {
         return 'ret_WSI2_sub_PointRelaisHoraires';
     }
